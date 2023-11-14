@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://f3gbgp7v48ti"]
+
+[ext_resource type="PackedScene" uid="uid://bv6f58518iogb" path="res://player.tscn" id="1_e8wu5"]
+[ext_resource type="PackedScene" uid="uid://dkp3qffm88658" path="res://block.tscn" id="2_08ak6"]
+
+[node name="Main Scene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_e8wu5")]
+position = Vector2(126, 261)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_08ak6")]
+position = Vector2(126, 321)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("2_08ak6")]
+position = Vector2(293, 326)
