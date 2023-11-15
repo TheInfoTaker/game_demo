@@ -25,7 +25,7 @@ This video provides a walkthrough of the code.
 
 ## Tools Used
 
-- **Godot Game Engine:** Version X.X.X
+- **Godot Game Engine:**
 - **Programming Language:** GDScript
 
 # Useful Websites
